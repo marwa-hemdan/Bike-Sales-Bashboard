@@ -1,56 +1,96 @@
-# Bike-Sales-Bashboard
-This Excel file, available on GitHub, is designed to demonstrate a complete workflow of data analysis, starting from raw data cleaning to creating interactive dashboards. The file includes the following key components:
 
-1. Raw Data Table
-The original dataset is stored in a clearly labeled sheet
+# 🚴‍♀️ Bike Sales Dashboard
 
-It contains unstructured or semi-structured data such as sales, customer info, and bike purchase.
+## 📌 Project Description
 
-Common issues like  inconsistent formatting, and missing values are present and intended for cleaning.
+This Excel-based project demonstrates a complete data analysis workflow — from raw data cleaning to building an interactive dashboard. It’s designed to highlight how Excel can be used as a powerful tool for transforming messy datasets into actionable business insights.
 
-2. Cleaned Data Table
-A cleaned version of the dataset is created in a separate sheet.
+The Excel file provided in this repository walks through each phase of the analysis and includes all supporting components.
 
-Cleaning steps include:
+---
 
-Removing duplicates
+## 🗂️ Key Components
 
-Filling or removing blank cells
+### 1. **Raw Data Table**
 
-Converting data types ( number to currency)
+* Found on a dedicated sheet labeled accordingly.
+* Contains unstructured or semi-structured data such as:
 
-Standardizing values (Material statuse labels)
+  * Customer demographics
+  * Sales information
+  * Bike purchase records
+* Intentionally includes common data issues like inconsistent formatting and missing values to simulate a real-world dataset.
 
-3. Pivot Tables
-Multiple pivot tables are created to summarize and analyze key metrics.
+---
 
-Examples include:
+### 2. **Cleaned Data Table**
 
-Total sales by region
+* Located on a separate sheet after cleaning.
+* Cleaning steps performed include:
 
-Sales trends by ages  
+  * Removing duplicates
+  * Handling blank or missing cells
+  * Converting data types (e.g., numbers to currency format)
+  * Standardizing categorical labels (e.g., material status)
 
-Top-performing bike 
+---
 
-These pivot tables are located on dedicated sheets (average income per purshase, customer age brackets, customer commute).
+### 3. **Pivot Tables**
 
-4. Interactive Dashboard
-A visual dashboard is built using Excel charts (bar, line, pie, etc.) linked to pivot tables.
+* Several pivot tables are created to analyze core metrics and segment data:
 
-It includes KPIs, summary charts, and visual trends.
+  * Total sales by region
+  * Sales trends by age groups
+  * Top-performing bike models
+  * Average income per purchase
+  * Customer commute distances and age brackets
+* Each pivot table is organized on its own sheet for clarity and easy access.
 
-The dashboard is user-friendly and visually structured for quick insights.
+---
 
-5. Slicers
-Slicers are added to enhance interactivity.
+### 4. **Interactive Dashboard**
 
-Users can filter data in real-time based on:
+* Built using Excel’s charting tools (bar, line, pie charts, etc.)
+* Fully interactive and linked to the pivot tables for dynamic updates
+* Features include:
 
-material status 
+  * KPIs (Key Performance Indicators)
+  * Visual summaries and trend analysis
+  * A clean, professional layout for quick insights
 
-Region 
+---
 
-Education
+### 5. **Slicers for Interactivity**
 
+* Slicers are used to allow real-time filtering of data within the dashboard.
+* Users can filter views based on:
 
-This makes the dashboard dynamic and suitable for multiple levels of analysis.
+  * Material status
+  * Region
+  * Education level
+* These controls make the dashboard dynamic and adaptable for multi-level analysis.
+
+---
+
+## 🎯 Use Cases
+
+"This section analyzes the relationship between bike purchases, the buyer's gender, and their income level." 
+
+  ![bik1](https://github.com/user-attachments/assets/8d638fed-a15f-4465-8d56-105ffd5a8c9d)
+
+"This section examines whether customers have purchased a bike based on their commuting distance."
+
+![bike2](https://github.com/user-attachments/assets/68bd81e5-c572-47c3-9ce4-b54445b81455)
+
+"This section categorizes customers into age brackets and analyzes the relationship between age and bike purchase behavior."
+
+![bik3](https://github.com/user-attachments/assets/a0825203-271d-416b-8aac-d1e851835e5f)
+
+## This dashboard is ideal for:
+
+![bike5](https://github.com/user-attachments/assets/df499b99-52db-40ff-a516-bdd884234c00)
+
+![bike7](https://github.com/user-attachments/assets/600c07c3-31e1-4773-ba7e-673b3cff7c63)
+
+![bike6](https://github.com/user-attachments/assets/66c68c91-b88c-4a8a-8442-17c7e455b811)
+
